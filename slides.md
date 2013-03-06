@@ -1,5 +1,6 @@
+!SLIDE center
 # Just Enough
-![git logo](../images/git_logo.png)
+![git logo](./images/git_logo.png)
 
 !SLIDE center
 # Credits
@@ -9,7 +10,7 @@
 !SLIDE center 
 # Three Trees
 ## HEAD, Index, and Working Directory
-![3 trees](../images/trees.png)
+![3 trees](./images/trees.png)
 
 !SLIDE center
 

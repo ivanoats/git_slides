@@ -1,14 +1,11 @@
-require 'parade-preshow'
-
 title "Git Review"
 
 description "git for the greater good"
 
-#
-# section "Introduction" do
-#   slides "intro.md"
-# end
-#
+section "Maine" do
+  slides "slides.md"
+end
+
 # section "Code Samples" do
 #   slides "code_sample.md"
 #   slides "code_samples"
@@ -26,4 +23,3 @@ description "git for the greater good"
 # slides "code_samples"
 # slides "closing.md"
 
-#
