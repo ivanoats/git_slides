@@ -1,0 +1,29 @@
+require 'parade-preshow'
+
+title "Git Review"
+
+description "git for the greater good"
+
+#
+# section "Introduction" do
+#   slides "intro.md"
+# end
+#
+# section "Code Samples" do
+#   slides "code_sample.md"
+#   slides "code_samples"
+# end
+#
+# section "Conclusion" do
+#   slides "closing.md"
+# end
+
+# Or if you are interested solely in linking to slides without sections you can
+# use the following:
+#
+# slides "intro.md"
+# slides "code_sample.md"
+# slides "code_samples"
+# slides "closing.md"
+
+#
