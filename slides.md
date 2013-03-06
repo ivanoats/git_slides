@@ -83,11 +83,11 @@
 * it can have untracked files
 * it's your sandbox to play in
 
-!SLIDE subsec bold
+!SLIDE center subsec bold
 
 # git status #
 
-!SLIDE example
+!SLIDE code small
 
 <pre>
 <b>$ git status</b>
@@ -110,7 +110,7 @@
 #
 </pre>
 
-!SLIDE example
+!SLIDE code small
 
 <pre>
 <b>$ git status</b>
