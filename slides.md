@@ -75,24 +75,34 @@
 * it's the files you have git added
   * but not committed
 
-!SLIDE
-# What is the working directory?
+!SLIDE incremental transition=fade
+# What is 
+# the working directory?
 * pwd == print working directory
 * it's simply the directory for your project
 * it can have untracked files
 
-!SLIDE
+!SLIDE commandline incremental
 # What is a remote?
-* another git repository
+
+    $ git remote -v
+    origin  git@github.com:ivanoats/git_slides.git (fetch)
+    origin  git@github.com:ivanoats/git_slides.git (push)
+
+## another git repository
 
 !SLIDE
 # What is origin?
-* the convention used for the git repo on github, bitbucket
+* the convention used for the name of the remote git repo on github, bitbucket
+* could have called it my_source
+* could have called it pancake
 
 !SLIDE
 # Branches
 ## What is master?
 * simply a convention for the main branch
+* could have called it first
+* could have called it cookie_monster
 
 !SLIDE incremental
 # Common misconceptions
