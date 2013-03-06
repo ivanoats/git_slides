@@ -241,7 +241,7 @@
 
 !SLIDE center transition=fade
 
-# Demo
+# Demo (probably tomorrow)
 
 !SLIDE
 
