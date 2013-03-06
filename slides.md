@@ -81,6 +81,126 @@
 * pwd == print working directory
 * it's simply the directory for your project
 * it can have untracked files
+* it's your sandbox to play in
+
+!SLIDE subsec bold
+
+# git status #
+
+!SLIDE example
+
+<pre>
+<b>$ git status</b>
+# On branch master
+# Your branch is behind 'origin/master' by 2 commits,
+#  and can be fast-forwarded.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#       <span class="green">modified:   jobs/email_reply.rb</span>
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes 
+#     in working directory)
+#
+#       <span class="red">modified:   app/helpers/users_helper.rb</span>
+#       <span class="red">modified:   test/unit/email_reply_job_test.rb</span>
+#
+</pre>
+
+!SLIDE example
+
+<pre>
+<b>$ git status</b>
+# On branch master
+# Your branch is behind 'origin/master' by 2 commits,
+#  and can be fast-forwarded.
+#
+# Changes to be committed:
+#   <strong>HEAD and index differ</strong>
+#
+#       <span class="green">modified:   jobs/email_reply.rb</span>
+#
+# Changed but not updated:
+#   <strong>index and working directory differ</strong>
+#
+#
+#
+#       <span class="red">modified:   app/helpers/users_helper.rb</span>
+#       <span class="red">modified:   test/unit/email_reply_job_test.rb</span>
+#
+</pre>
+
+!SLIDE center
+
+![only a file](images/ex1.png)
+
+!SLIDE center
+
+![git init](images/ex2.png)
+
+!SLIDE center
+
+![git add](images/ex3.png)
+
+!SLIDE center
+
+![git commit](images/ex4.png)
+
+!SLIDE center
+
+![modify](images/ex5.png)
+
+!SLIDE
+
+<pre>
+<b>$ git status</b>
+# On branch master
+# Your branch is behind 'origin/master' by 2 commits,
+#  and can be fast-forwarded.
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes 
+#     in working directory)
+#
+#       <span class="red">modified:   file.txt</span>
+#
+</pre>
+
+!SLIDE center
+
+![modify](images/ex5.png)
+
+!SLIDE center
+
+![git add](images/ex6.png)
+
+!SLIDE
+
+<pre>
+<b>$ git status</b>
+# On branch master
+# Your branch is behind 'origin/master' by 2 commits,
+#  and can be fast-forwarded.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#       <span class="green">modified:   file.txt</span>
+#
+</pre>
+
+!SLIDE center
+
+![git add](images/ex6.png)
+
+!SLIDE center
+
+![git commit](images/ex7.png)
+
 
 !SLIDE commandline incremental
 # What is a remote?
@@ -91,11 +211,15 @@
 
 ## another git repository
 
-!SLIDE
+!SLIDE incremental bullets
 # What is origin?
 * the convention used for the name of the remote git repo on github, bitbucket
 * could have called it my_source
 * could have called it pancake
+
+!SLIDE
+# Branches
+* are different commits (trees + files)
 
 !SLIDE
 # Branches
@@ -111,6 +235,9 @@
 * don't call a branch "index"
 * don't call a branch a stick, a chanukah bush, or anything else derogatory
 
+!SLIDE
+
+* git pull remote_name branch_name
 
 !SLIDE center transition=fade
 
